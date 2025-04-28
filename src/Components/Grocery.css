@@ -1,0 +1,157 @@
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.groceryList {
+  background: linear-gradient(to right, #ee9ca7, #ffdde1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  width: 100%;
+  height: 100vh;
+  margin-top: -8  px;
+  margin-left:-8px ;
+  margin-right:-30px ;
+  margin-bottom: -20px;
+}
+.groceryList-header {
+  background: linear-gradient(to right, #92858f, #f0a1d1);
+  position: absolute;
+  width: 50%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 60px;
+}
+.groceryList-header h1 {
+  text-align: center;
+}
+.groceryList-header input {
+  width: 60%;
+  height: 49px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+  margin-top: 24px;
+  margin-left: 12%;
+}
+.groceryList-header button {
+  height: 50px;
+  width: 10%;
+  border-radius: 40px;
+  border: none;
+  outline: none;
+  background: #92858f;
+  color: black;
+  font-size: 15px;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+::placeholder {
+  color: #92858f;
+  font-size: 15px;
+}
+.groceryList-item {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+.groceryList-item-icon {
+  margin-top: 18px;
+}
+.groceryList-item-icon span {
+  font-size: 20px;
+  cursor: pointer;
+  color: #443541;
+}
+.groceryList-item-text h2 {
+  font-size: 17px;
+}
+@media (max-width: 500px) {
+  .groceryList-header {
+    width: 90%;
+  }
+  .groceryList-header h1 {
+    font-size: 20px;
+  }
+  .groceryList-header input {
+    width: 60%;
+    height: 30px;
+  }
+  ::placeholder {
+    font-size: 13px;
+  }
+  .groceryList-header button {
+    font-size: 14px;
+    width: 45px;
+    height: 30px;
+    margin-left: 1px;
+    border-radius: 15px;
+  }
+  .groceryList-item-text h2 {
+    font-size: 20px;
+  }
+  .groceryList-item-icon span {
+    font-size: 20px;
+  }
+}
+@media (max-width: 800px) {
+  .groceryList-header {
+    width: 90%;
+  }
+  .groceryList-header h1 {
+    font-size: 20px;
+  }
+  .groceryList-header input {
+    width: 60%;
+    height: 30px;
+  }
+  ::placeholder {
+    font-size: 13px;
+  }
+  .groceryList-header button {
+    font-size: 14px;
+    width: 45px;
+    height: 30px;
+    margin-left: 1px;
+    border-radius: 15px;
+  }
+  .groceryList-item-text h2 {
+    font-size: 20px;
+  }
+  .groceryList-item-icon span {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .groceryList-header {
+    width: 90%;
+  }
+  .groceryList-header h1 {
+    font-size: 30px;
+  }
+  .groceryList-header input {
+    width: 60%;
+    height: 40px;
+  }
+  ::placeholder {
+    font-size: 16px;
+  }
+  .groceryList-header button {
+    font-size: 14px;
+    width: 60px;
+    height: 40px;
+    margin-left: 1px;
+    border-radius: 20px;
+  }
+  .groceryList-item-text h2 {
+    font-size: 25px;
+  }
+  .groceryList-item-icon span {
+    font-size: 25px;
+  }
+}
